@@ -2,7 +2,7 @@
 {
     public class Setting
     {
-        public static string ConnectionString = "Endpoint=sb://simplesmessaging.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=LKHwRGJLWuhgcX/Qx+vZXxyMSKt/Q9876cH6L5K9WAA=";
+        public static string ConnectionString = "Endpoint=sb://sharebook.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=kDokrCcLsJHSKtllj6YGK6gb3ogVmpVGExXMItDyZaE=";
         public static string QueueName = "rfidcheckout";
     }
 }

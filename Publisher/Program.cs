@@ -1,8 +1,8 @@
 ﻿using Azure.Messaging.ServiceBus;
 
-string connectionString = "Endpoint=sb://canalhenriquesouza.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=kDokrCcLsJHSKtllj6YGK6gb3ogVmpVGExXMItDyZaE=";
+string connectionString = "Endpoint=sb://sharebook.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=kDokrCcLsJHSKtllj6YGK6gb3ogVmpVGExXMItDyZaE=";
 string queueName = "demo1";
-string sentance = "Sejam todos bem vindos a live do Canal do Henrique Souza";
+string sentance = "Sejam todos bem vindos a live do Canal do ShareBook";
 
 var client = new ServiceBusClient(connectionString);
 var sender = client.CreateSender(queueName);

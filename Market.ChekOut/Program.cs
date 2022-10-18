@@ -14,8 +14,8 @@ if (await serviceBusAdministrationClient.QueueExistsAsync(Setting.QueueName))
 
 var rfidCreateQueueOptions = new CreateQueueOptions(Setting.QueueName)
 {
-    //RequiresDuplicateDetection = true,
-    //DuplicateDetectionHistoryTimeWindow = TimeSpan.FromMinutes(10),
+    RequiresDuplicateDetection = true,
+    DuplicateDetectionHistoryTimeWindow = TimeSpan.FromMinutes(10),
 
     //RequiresSession = true
 };

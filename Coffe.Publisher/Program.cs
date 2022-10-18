@@ -8,7 +8,7 @@ using System.Text;
 
 ServiceBusClient sbClient = new ServiceBusClient(Settings.ConnectionString);
 
-string Sentance = "Estamos ao vivo no canal do Henrique Eduardo Souza";
+string Sentance = "Estamos ao vivo no canal Sharebook";
 
 WriteLine("Coffe Publisher Console - Pressione <ENTER>", ConsoleColor.White);
 Console.ReadLine();
@@ -197,7 +197,7 @@ async Task SendCoffeOrderListAsBatchAsync()
 
 List<CoffeOrder> GetCoffeOrderList()
 {    
-    string[] names = { "Vinicius", "Henrique", "Miguel", "Erica", "Maria", "Joao", "Jose", "Alex", "Eduardo", "Souza" };
+    string[] names = { "Vinicius", "Raffa", "Miguel", "Erica", "Maria", "Joao", "Jose", "Alex", "Eduardo", "Guilherme" };
     string[] coffes = { "Espresso", "Cappuccino", "Caffe latte", "Duplo", "Mocha", "Machiato", "Chocottino", "Americano", "Italiano", "Coado", "Panna", "Tradicional" };
     var listSize = new List<string> { "Pequeno", "Medio", "Grande" };
     var random = new Random();

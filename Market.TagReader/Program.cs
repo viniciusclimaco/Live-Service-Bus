@@ -63,7 +63,7 @@ while (position < 10)
     var tagReadMessage = new ServiceBusMessage(orderJson);
 
     // Comment in to set message id.
-    //tagReadMessage.MessageId = tag.Id;
+    tagReadMessage.MessageId = tag.Id;
 
     // Comment in to set session id.
     //tagReadMessage.SessionId = sessionId;

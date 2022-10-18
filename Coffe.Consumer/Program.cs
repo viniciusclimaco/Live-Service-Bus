@@ -14,9 +14,9 @@ WriteLine("Coffe Consumer Console", ConsoleColor.White);
 
 //await ReceiveAndProcessText(1);
 
-await ReceiveAndProcessCoffeOrder(1);
+//await ReceiveAndProcessCoffeOrder(1);
 //await ReceiveAndProcessCoffeOrder(5);
-//await ReceiveAndProcessCoffeOrder(100);
+await ReceiveAndProcessCoffeOrder(100);
 
 //await ReceiveAndProcessControlMessage(1);
 
