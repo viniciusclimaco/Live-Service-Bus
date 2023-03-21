@@ -71,7 +71,7 @@ while (position < 10)
     // Send the message
     await messageSender.SendMessageAsync(tagReadMessage);
     Console.WriteLine($"Enviado: { orderItems[position].Produto }");
-    //Console.WriteLine($"Sent: { orderItems[position].Produto } - MessageId: { tagReadMessage.MessageId }");
+    //Console.WriteLine($"Enviado: { orderItems[position].Produto } - MessageId: { tagReadMessage.MessageId }");
 
     if (random.NextDouble() > 0.4) position++;
     sentCount++;

@@ -1,7 +1,7 @@
 ﻿using Azure.Messaging.ServiceBus;
 
-string connectionString = "Endpoint=sb://live-service-bus-raffa.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=mYRMwrYLsYiDnans6mDCqV+pQI3UeZ4xqoue7Vx8t6I=";
-string queueName = "live-raffa";
+string connectionString = "";
+string queueName = "vssummit2023";
 
 var client = new ServiceBusClient(connectionString);
 var receiver = client.CreateReceiver(queueName);

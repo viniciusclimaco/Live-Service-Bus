@@ -8,7 +8,7 @@ using System.Text;
 
 ServiceBusClient sbClient = new ServiceBusClient(Settings.ConnectionString);
 
-string Sentance = "Estamos ao vivo no canal Sharebook";
+string Sentance = "Estamos no VS Summit 2023";
 
 WriteLine("Coffe Publisher Console - Pressione <ENTER>", ConsoleColor.White);
 Console.ReadLine();

@@ -1,7 +1,7 @@
 ﻿using Azure.Messaging.ServiceBus;
 using Azure.Messaging.ServiceBus.Administration;
 
-string connectionString = "Endpoint=sb://live-service-bus-raffa.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=mYRMwrYLsYiDnans6mDCqV+pQI3UeZ4xqoue7Vx8t6I=";
+string connectionString = "";
 string topicName = "chatcoders";
 
 Console.WriteLine("Digite seu nome:");
